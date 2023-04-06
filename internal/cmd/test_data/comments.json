@@ -1,0 +1,22 @@
+[
+    {
+        "short_hash": "2219662",
+        "message": "build: upgrade `example-pb`",
+        "author": "howard"
+    },
+    {
+        "short_hash": "4cc90f5",
+        "message": "fix(XOO-1636): test case1",
+        "author": "jerry"
+    },
+    {
+        "short_hash": "4c59441",
+        "message": "doc(XOO-1636): test case2",
+        "author": "jerry"
+    },
+    {
+        "short_hash": "7e2171e",
+        "message": "feat(XOO-1362): test case3",
+        "author": "howard"
+    }
+]
