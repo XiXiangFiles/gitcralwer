@@ -1,3 +1,41 @@
-author = ben.hsu, tickets = GOO-1362,GOO-1569,GOO-1542,GOO-1700,GOO-1574,GOO-1580,GOO-1367,GOO-1432,GOO-1365,GOO-1372,GOO-1366,GOO-1589,GOO-1644,GOO-1566,GOO-1588,GOO-1581,GOO-1529,GOO-1528,GOO-1399
-author = jerry.wang, tickets = GOO-1685,GOO-1650,GOO-1636,GOO-1563,GOO-1561,GOO-1573,GOO-1679
-author = christseng, tickets = STAR-4641,STAR-4998,GOO-1671,STAR-4984,STAR-4885,STAR-4884
+author = ben.hsu
+tickets = 
+https://onedegree.atlassian.net/browse/GOO-1644
+https://onedegree.atlassian.net/browse/GOO-1581
+https://onedegree.atlassian.net/browse/GOO-1372
+https://onedegree.atlassian.net/browse/GOO-1367
+https://onedegree.atlassian.net/browse/GOO-1432
+https://onedegree.atlassian.net/browse/GOO-1569
+https://onedegree.atlassian.net/browse/GOO-1589
+https://onedegree.atlassian.net/browse/GOO-1588
+https://onedegree.atlassian.net/browse/GOO-1566
+https://onedegree.atlassian.net/browse/GOO-1528
+https://onedegree.atlassian.net/browse/GOO-1366
+https://onedegree.atlassian.net/browse/GOO-1529
+https://onedegree.atlassian.net/browse/GOO-1580
+https://onedegree.atlassian.net/browse/GOO-1542
+https://onedegree.atlassian.net/browse/GOO-1399
+https://onedegree.atlassian.net/browse/GOO-1574
+https://onedegree.atlassian.net/browse/GOO-1362
+https://onedegree.atlassian.net/browse/GOO-1700
+https://onedegree.atlassian.net/browse/GOO-1365
+
+author = jerry.wang
+tickets = 
+https://onedegree.atlassian.net/browse/GOO-1685
+https://onedegree.atlassian.net/browse/GOO-1650
+https://onedegree.atlassian.net/browse/GOO-1636
+https://onedegree.atlassian.net/browse/GOO-1563
+https://onedegree.atlassian.net/browse/GOO-1561
+https://onedegree.atlassian.net/browse/GOO-1573
+https://onedegree.atlassian.net/browse/GOO-1679
+
+author = christseng
+tickets = 
+https://onedegree.atlassian.net/browse/STAR-4998
+https://onedegree.atlassian.net/browse/GOO-1671
+https://onedegree.atlassian.net/browse/STAR-4984
+https://onedegree.atlassian.net/browse/STAR-4885
+https://onedegree.atlassian.net/browse/STAR-4884
+https://onedegree.atlassian.net/browse/STAR-4641
+

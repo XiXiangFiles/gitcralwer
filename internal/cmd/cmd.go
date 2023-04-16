@@ -19,7 +19,7 @@ func ParseMessage(dir string) string {
 	for _, cmt := range commitments {
 		matched, _ := regexp.MatchString(`[a-z]{1,9}\([A-Z]{1,10}\-[0-9]{1,6}\)`, cmt.Message)
 		if matched {
-			tickets[cmt.Author] = append(tickets[cmt.Author], extractTicket(cmt.Message))
+			tickets[cmt.Author] = append(tickets[cmt.Author], `https://onedegree.atlassian.net/browse/`+extractTicket(cmt.Message))
 		}
 	}
 	memo := TicketToTxt(tickets)
@@ -58,7 +58,7 @@ func TicketToTxt(tickets map[string][]string) string {
 	str := ""
 	for author, ticket := range tickets {
 		ts := reduceTicket(ticket)
-		str += fmt.Sprintf("author = %s, tickets = %s\n", author, strings.Join(ts, ","))
+		str += fmt.Sprintf("author = %s\ntickets = \n%s\n\n", author, strings.Join(ts, "\n"))
 	}
 	return str
 }
