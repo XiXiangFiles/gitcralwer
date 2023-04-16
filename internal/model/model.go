@@ -1,9 +1,12 @@
 package model
 
-import "time"
-
 type Commitment struct {
-	Author    string    `json:"author"`
-	Comment   string    `json:"comment"`
-	Timestamp time.Time `json:"timestamp"`
+	ShortHash string `json:"short_hash"`
+	Message   string `json:"message"`
+	Author    string `json:"author"`
+}
+
+type ReduceCommitment struct {
+	Ticket string `json:"ticket"`
+	Author string `json:"author"`
 }

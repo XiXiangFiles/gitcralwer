@@ -1,0 +1,622 @@
+[
+    {
+        "short_hash": "2219662",
+        "message": "build: upgrade `odhk-pb`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "2d91e2f",
+        "message": "Merge branch 'feature-goo-1700-add-field-to-insured-subject' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "d45875b",
+        "message": "docs(GOO-1700): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "efd95f0",
+        "message": "feat(GOO-1700): fix unit test data",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "0b28118",
+        "message": "feat(GOO-1700): fix `PatchApplication`'s helper func & unit test",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "566e589",
+        "message": "feat(GOO-1700): adjust mapping func `toApplicationPlan` to handle `Name` & `ConstraintKey`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "6169742",
+        "message": "feat(GOO-1700): implement application assistant func `GetISConstraintKey` & mapping insured subject's name",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "f4628e3",
+        "message": "feat(GOO-1700): add field `name` to application plan insured subject model",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "ed33d16",
+        "message": "Merge branch 'feature-goo-1589-fix-PatchApplication' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "9d002a5",
+        "message": "feat(GOO-1589): fix unit test & adjust unit test data",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "4c2f36d",
+        "message": "docs(GOO-1589): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "b097356",
+        "message": "feat(GOO-1589): remove deprecated field `subscriber_relationship` in CI application assistant",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "5ded6d8",
+        "message": "feat(GOO-1589): add missing fields to the request payload of the endpoint `PatchApplication`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "a208c99",
+        "message": "Merge branch 'feature-goo-1573' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "9354558",
+        "message": "Merge branch 'feature-goo-1588-fix-GetApplication' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "2a3ecbc",
+        "message": "build(GOO-1588): upgrade `odhk-pb`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "bc6464b",
+        "message": "docs(GOO-1573): update campaign model for ixtv1.9.1 upgrade",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "00aeb8c",
+        "message": "docs(GOO-1588): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "a67a259",
+        "message": "feat(GOO-1588): fix unit test case & re-group test data",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "8dc2492",
+        "message": "feat(GOO-1588): add missing fields below to `Application` model & setup to convert func",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "ea61a80",
+        "message": "fix(GOO-1573): remove ixtv1.9.1 deprecated field in campain_model",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "10b90c1",
+        "message": "Merge branch 'feature-goo-1581-fix-ListPolicy' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "03241be",
+        "message": "Merge branch 'feature-goo-1574-fix-GetProduct' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "58e4552",
+        "message": "Merge branch 'feature-goo-1644-add-payment-card-endpoint' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "cf88a20",
+        "message": "docs(GOO-1644): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "fe3f5fa",
+        "message": "feat(GOO-1644): add endpoint `/payment/payment-cards` & mark `/payment/payment-method` to deprecated",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "2a611b4",
+        "message": "docs(GOO-1581): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "afb8438",
+        "message": "feat(GOO-1581): remove query param `inception_time_start` & `inception_time_end`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "87c7893",
+        "message": "docs(GOO-1574): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "8684a29",
+        "message": "feat(GOO-1574): add service unit test data & re-group it",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "725690c",
+        "message": "feat(GOO-1574): fix service func `GetProduct`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "8ed58ac",
+        "message": "Merge branch 'feature-star-4998-create-policy-record' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "953ad3e",
+        "message": "feat(STAR-4998): create policy record after issuing application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "d275cd9",
+        "message": "Merge branch 'feature-goo-1580-fix-GetPolicy' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "7f7875c",
+        "message": "doc(GOO-1580): generate swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "c226758",
+        "message": "feat(GOO-1580): adjust service unit test data",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "6ce1beb",
+        "message": "feat(GOO-1580): adjust type of `SecondaryState` & remove policy level `InceptionTime`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "a2776e4",
+        "message": "Merge branch 'feature-goo-1372' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "e812093",
+        "message": "feat(GOO-1372): implement service layer func `DryrunUnderwriting`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "8d6987a",
+        "message": "feat(GOO-1372): add test data for service layer func `DryrunUnderwriting`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "89a6cfc",
+        "message": "feat(GOO-1372): implement grpc client func `DryRunUnderwriting`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "9b2513d",
+        "message": "Merge branch 'feature-goo-1679' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "24bf1e2",
+        "message": "Merge branch 'feature-goo-1367-add-doc-for-dryrun-uw' into 'feature-pet-migration'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "7cddf1b",
+        "message": "feat(GOO-1367): gen swagger doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "f3ff490",
+        "message": "feat(GOO-1367): add `Underwriting` endpoint",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "1d12fa6",
+        "message": "fix(GOO-1679): fixed the pet production can't send quote edm",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "5fdec29",
+        "message": "Merge branch 'feature-goo-1685' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "1ebea4d",
+        "message": "fix(GOO-1685): fixed insured_subjects in pet that can’t be partial created",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "605691b",
+        "message": "feat(GOO-1367): add unimplemented service layer func `DryrunUnderwriting`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "2c14e09",
+        "message": "Merge branch 'develop' into 'feature-pet-migration'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "09508a4",
+        "message": "Merge branch 'fix-goo-1671-get-application-panic' into 'feature-pet-migration'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "f3d6884",
+        "message": "fix(GOO-1671): panic error if rider plan is empty when get application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "5a41cc8",
+        "message": "Merge branch 'feature-product-code-updated' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "f8c5542",
+        "message": "feat: update pet/CI's product code",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "4c7b273",
+        "message": "Merge branch 'feature-goo-1432-support-to-pay-by-card-id' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "ab3b137",
+        "message": "feat(GOO-1432): pass paymentCard when creating payment pay in records",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "bf16409",
+        "message": "feat(GOO-1432): impl. grpc client `GetPaymentCard` & `CreatePolicyPaymentCard`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "3a7b4a3",
+        "message": "feat(GOO-1432): add `PaymentCardID` to delivery layer func `PayApplication` & application model",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "b5b70cc",
+        "message": "Merge branch 'fix-star-4984-able-to-list-policy-by-product-code-only' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "ad6313e",
+        "message": "fix(STAR-4984): it should be able to list policy by product code only",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "bfdd5a4",
+        "message": "feat(STAR-4984): ListProduct set prod code and ver code to optional",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "a171fa7",
+        "message": "Merge branch 'feature-goo-1650' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "c9731c8",
+        "message": "Merge branch 'release-s47-1' into 'develop'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "9539d0c",
+        "message": "build(GOO-1650): update mod",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "e97fdec",
+        "message": "fix(GOO-1650): fixed the breaking change impact",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "dbd2a0f",
+        "message": "Merge branch 'hotfix-goo-1636' into 'release-s47-1'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "4cc90f5",
+        "message": "fix(GOO-1636): remove the system_attr for patch beneficiary_model",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "4c59441",
+        "message": "doc(GOO-1636): remove is_primary param from the related beneficiary_model",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "327bc39",
+        "message": "Merge branch 'develop-issue-7' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "1add93e",
+        "message": "Merge branch 'feature-goo-1569-fix-unit-and-uom-mapping' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "a39d101",
+        "message": "Merge branch 'feature-goo-1542-adjust-CreateApplication-request-to-support-payment-period' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "af4f451",
+        "message": "Merge branch 'feature-goo-1362-support-to-create-all-payment-schedule' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "7e2171e",
+        "message": "feat(GOO-1362): support to create all payment schedule",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "3aabe26",
+        "message": "refactor(issue-7): ajusted constructPatchApplicationReqFromPbApplication func",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "956a2ad",
+        "message": "feat(GOO-1569): fix unit test",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "bbc1858",
+        "message": "feat(GOO-1569): let fields with suffix `Uom` and fields with suffix `Unit` mapping correctly",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "33d6c89",
+        "message": "Merge branch 'feature-goo-1566-support-to-get-shelved-product' into 'feature-pet-migration'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "26123de",
+        "message": "feat(GOO-1566): fix unit test",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "44236e3",
+        "message": "feat(GOO-1566): remove filter condition when listing product",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "d710eb2",
+        "message": "Merge branch 'feature-home-quotation' into 'release-s47-1'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "e091959",
+        "message": "Merge branch 'feature-goo-1366-parse-aggregate-limit-amount-to-float' into 'feature-pet-migration'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "9cdfb09",
+        "message": "Merge branch 'hotfix-patch-application-nil-problem' into 'release-s47-1'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "3898bb8",
+        "message": "feat(GOO-1563): add or operator on patch_application payload, let it accept empty string",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "f3d88b8",
+        "message": "fix(GOO-1563): fix the nil problem in patch application",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "fd39ec0",
+        "message": "Merge branch 'feature-star-4885-add-api-to-renew-application' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "0a38a7b",
+        "message": "Merge branch 'hotfix-save-quote-edm' into 'release-s47-1'",
+        "author": "Charlotte Chao"
+    },
+    {
+        "short_hash": "b0b5b8f",
+        "message": "feat(GOO-1542): adjust request of `CreateApplication` & `PatchApplication` to support different payment period",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "6937006",
+        "message": "Merge branch 'fix-goo-1366-add-ci-to-dryrun-assistant-constructor' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "7072629",
+        "message": "fix(GOO-1561): fixed save quotation redirect_url err",
+        "author": "jerry.wang"
+    },
+    {
+        "short_hash": "3bdb5a1",
+        "message": "feat(GOO-1366): parse `AggregateLimitAmount` into float64 instead of int",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "a31a884",
+        "message": "feat(GOO-1366): add ci to dryrun assistant constructor",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "63c631a",
+        "message": "Merge branch 'fix-goo-1529-add-missing-constraint-key' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "b563207",
+        "message": "feat(GOO-1529): add missing constraint key",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "2222916",
+        "message": "Merge branch 'feature-goo-1529-impl-CreateApplication-for-ci' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "0d44964",
+        "message": "feat(GOO-1529): impl. application assistant for ci",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "a412cf8",
+        "message": "Merge branch 'feature-goo-1365-change-CreateApplication-payload-to-optional' into 'feature-home-quotation'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "d020b8b",
+        "message": "Merge branch 'feature-goo-1528-impl-CreateApplication-for-pet' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "d388d2b",
+        "message": "Merge branch 'feature-goo-1366-impl-dryrun-pricing-for-ci' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "8d35599",
+        "message": "feat(GOO-1528): impl. pet application assistant",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "5029fef",
+        "message": "feat(GOO-1366): impl. dryrun assistant for ci",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "4e52806",
+        "message": "feat(STAR-4885): add delivery to renew application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "069e91a",
+        "message": "feat(STAR-4885): add service to renew application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "ee978c2",
+        "message": "Merge branch 'feature-goo-1366-impl-dryrun-pricing-for-pet' into 'feature-pet-migration'",
+        "author": "Chris Tseng"
+    },
+    {
+        "short_hash": "ff95418",
+        "message": "Merge branch 'feature-star-4884-add-api-to-decline-application' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "f84d99d",
+        "message": "feat(GOO-1366): impl. dryrun assistant for pet",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "5daf05c",
+        "message": "feat(GOO-1366): impl. dryrun assistant for home",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "b162cf8",
+        "message": "feat(STAR-4884): add delivery to decline application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "9a52206",
+        "message": "feat(STAR-4884): add service to decline application",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "2cf5130",
+        "message": "refactor(GOO-1528): split application assistant for home to a single file",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "87da9bd",
+        "message": "feat(GOO-1365): adjust payload to optional when creating application",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "20b9298",
+        "message": "Merge branch 'refactor-goo-1366-rename-pricing-func' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "22e5ab8",
+        "message": "Merge branch 'feature-star-4592-add-renewal-related-api-doc' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "3830f8c",
+        "message": "Merge branch 'feature-home-quotation' into feature-pet-migration",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "31d97ab",
+        "message": "docs(STAR-4885): add swagger doc for application renewal",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "16e9016",
+        "message": "docs(STAR-4884): add swagger doc for application decline",
+        "author": "christseng"
+    },
+    {
+        "short_hash": "14528d5",
+        "message": "refactor(GOO-1366): rename pricing related func & test name",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "63a647a",
+        "message": "Merge branch 'feature-goo-1399-return-payment-card-id' into 'feature-pet-migration'",
+        "author": "Ben Hsu"
+    },
+    {
+        "short_hash": "39468c2",
+        "message": "doc(GOO-1399 & GOO-1366): gen doc",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "3e5bd5f",
+        "message": "feat(GOO-1399): adjust delivery func `PaymentCreatePaymentCard`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "f5e8970",
+        "message": "feat(GOO-1399): adjust service func `PaymentCreatePaymentCard`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "4c19669",
+        "message": "feat(GOO-1399): adjust grpc client for `PaymentCreatePaymentCard`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "d32e291",
+        "message": "build(GOO-1399): upgrade `odhk-pb`",
+        "author": "ben.hsu"
+    },
+    {
+        "short_hash": "8571b05",
+        "message": "Merge branch 'feature-star-4641-add-jcb-brand' into 'feature-pet-migration'",
+        "author": "Jerry Wang"
+    },
+    {
+        "short_hash": "6d1654e",
+        "message": "docs(STAR-4641): add brand for jcb",
+        "author": "christseng"
+    }
+]
