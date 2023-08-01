@@ -3,7 +3,7 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"os"
 	"regexp"
 	"strings"
 
@@ -12,7 +12,7 @@ import (
 
 func ParseMessage(dir, scopePrefix string) string {
 	commitments := []*model.Commitment{}
-	commitsBytes, _ := ioutil.ReadFile(dir)
+	commitsBytes, _ := os.ReadFile(dir)
 	_ = json.Unmarshal(commitsBytes, &commitments)
 
 	tickets := make(map[string][]string)
