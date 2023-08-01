@@ -1,4 +1,4 @@
-module github.com/XiXiangFiles/gitcralwer
+module github.com/XiXiangFiles/gitcrawler
 
 go 1.20
 

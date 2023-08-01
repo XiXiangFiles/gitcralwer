@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/XiXiangFiles/gitcralwer/internal/cmd"
+	"github.com/XiXiangFiles/gitcrawler/internal/cmd"
 	"github.com/akamensky/argparse"
 )
 

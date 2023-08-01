@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/XiXiangFiles/gitcralwer/internal/model"
+	"github.com/XiXiangFiles/gitcrawler/internal/model"
 )
 
 func ParseMessage(dir, scopePrefix string) string {
@@ -62,3 +62,5 @@ func TicketToTxt(tickets map[string][]string) string {
 	}
 	return str
 }
+
+func TicketCrawler(target, base, template string)
